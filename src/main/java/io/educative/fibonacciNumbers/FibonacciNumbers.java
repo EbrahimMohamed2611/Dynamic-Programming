@@ -1,4 +1,4 @@
-package io.educative;
+package io.educative.fibonacciNumbers;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ public class FibonacciNumbers {
 
     public static int fib(int number) {
         int[] dp = new int[number + 1];
-        Arrays.fill(dp, -1);
+//        Arrays.fill(dp, -1);
         return fib(number, dp);
     }
 
@@ -23,7 +23,7 @@ public class FibonacciNumbers {
         if (number <= 1)
             return number;
 
-        if (dp[number] != -1)
+        if (dp[number] != 0)
             return dp[number];
 
         dp[number] = fib(number - 1, dp) + fib(number - 2, dp);
