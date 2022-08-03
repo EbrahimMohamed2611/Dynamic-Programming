@@ -34,6 +34,7 @@
 | 4   | [Frog Jump](https://www.codingninjas.com/codestudio/problem-details/frog-jump_3621012)  | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/FrogJump.java)                                                                           |
 | 5   | [746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 | 6   | Number factors                                                                          | Fibonacci Number DP |                                                                                                                                                                                                                 |
+| 7   | [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)    | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 
 
 
