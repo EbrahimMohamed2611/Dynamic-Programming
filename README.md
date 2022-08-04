@@ -35,6 +35,7 @@
 | 5   | [746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 | 6   | Number factors                                                                          | Fibonacci Number DP |                                                                                                                                                                                                                 |
 | 7   | [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)    | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
+| 8   | [198.House Robber](https://leetcode.com/problems/house-robber/)                         | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 
 
 
