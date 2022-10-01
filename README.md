@@ -7,9 +7,9 @@
 <details>
 <summary>0-1 Knapsack</summary>
 
-| #   | Problem     | Topic           | Language                                                                                                                                      |
-|-----|-------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Sub Set Sum | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/FibonacciNumbers.java) |
+| #   | Problem     | Topic           | Language                                                                                                                              |
+|-----|-------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Sub Set Sum | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
 
 </details>
 
@@ -54,13 +54,13 @@
 
 </details>
 
-
 ---
 <details>
 <summary>Palindromic Subsequence</summary>
 
-| #   | Problem                  | Topic            | Language |
-|-----|--------------------------|------------------|----------|
+| #   | Problem                                                                                 | Topic           | Language                                                                                                                                           |
+|-----|-----------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 1D DP On String | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java) |
 
 
 </details>
@@ -69,10 +69,10 @@
 <details>
 <summary>Longest Common Substring</summary>
 
-| #   | Problem                                                                                                | Topic | Language                                                                                                                                                    |
-|-----|--------------------------------------------------------------------------------------------------------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | [1143.Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)           | 2D DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java) |
-| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) | 2D DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)          |
+| #   | Problem                                                                                                | Topic     | Language                                                                                                                                                    |
+|-----|--------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java) |
+| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
 
 
 

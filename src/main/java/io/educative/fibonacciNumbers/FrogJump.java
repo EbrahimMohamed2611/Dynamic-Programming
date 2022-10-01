@@ -17,6 +17,21 @@ public class FrogJump {
         return Math.min(oneJump, twoJump);
     }
 
+
+    public static int frogJump2(int n, int[] heights) {
+        return frogJumpHelper2(0, n, heights);
+    }
+
+    private static int frogJumpHelper2(int index, int n, int[] heights) {
+        if (n - 1 == index) return 0;
+        int oneJump = frogJumpHelper2(index + 1, n, heights) + Math.abs(heights[index] - heights[index + 1]);
+        int twoJump = Integer.MAX_VALUE;
+        if (index < n - 2) {
+            twoJump = frogJumpHelper2(index + 2, n, heights) + Math.abs(heights[index] - heights[index + 2]);
+        }
+        return Math.min(oneJump, twoJump);
+    }
+
     // (2) Second Using Memoization
     public static int frogJumpMemo(int n, int[] heights) {
         int[] dp = new int[n];
@@ -70,15 +85,22 @@ public class FrogJump {
 
 
     public static void main(String[] args) {
+        System.out.println("BruteForce......");
         System.out.println(frogJump(6, new int[]{30, 10, 60, 10, 60, 50})); // 40
         System.out.println(frogJump(4, new int[]{10, 20, 30, 10})); // 20
 
+        System.out.println("Memoization......");
         System.out.println(frogJumpMemo(6, new int[]{30, 10, 60, 10, 60, 50})); // 40
         System.out.println(frogJumpMemo(4, new int[]{10, 20, 30, 10})); // 20
 
+        System.out.println(frogJump2(6, new int[]{30, 10, 60, 10, 60, 50})); // 40
+        System.out.println(frogJump2(4, new int[]{10, 20, 30, 10})); // 20
+
+        System.out.println("Tabulation......");
         System.out.println(frogJumpTabulation(6, new int[]{30, 10, 60, 10, 60, 50})); // 40
         System.out.println(frogJumpTabulation(4, new int[]{10, 20, 30, 10})); // 20
 
+        System.out.println("SpaceOptimization......");
         System.out.println(frogJumpSpaceOptimization(6, new int[]{30, 10, 60, 10, 60, 50})); // 40
         System.out.println(frogJumpSpaceOptimization(4, new int[]{10, 20, 30, 10})); // 20
     }

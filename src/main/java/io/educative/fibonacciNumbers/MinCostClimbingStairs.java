@@ -1,6 +1,53 @@
 package io.educative.fibonacciNumbers;
 
+import java.util.*;
+
 public class MinCostClimbingStairs {
+
+
+
+    // Using HashMap
+    public int minCostClimbingStairs4(int[] costs) {
+        Map<Integer, Integer> cache = new HashMap<>();
+        return Math.min(minCostClimbingStairs(0, costs, cache),minCostClimbingStairs(1, costs, cache)) ;
+    }
+
+    private int minCostClimbingStairs(int index, int[]arr,  Map<Integer, Integer> cach){
+        if(index == arr.length-1 || index == arr.length-2)
+            return arr[index];
+
+        if(cach.containsKey(index))
+            return cach.get(index);
+
+        int secondStep = Integer.MAX_VALUE;
+        int firstStep =  minCostClimbingStairs(index+1, arr, cach);
+        if(index+2 <= arr.length-1)
+            secondStep = minCostClimbingStairs(index+2, arr,cach);
+
+        cach.put(index,arr[index] + Math.min(firstStep, secondStep));
+        return  cach.get(index);
+    }
+
+    // Start from beginning
+    public int minCostClimbingStairs3(int[] costs) {
+        int[] dp = new int[costs.length+1];
+        return Math.min(minCostClimbingStairs(0, costs, dp),minCostClimbingStairs(1, costs, dp)) ;
+    }
+
+    private int minCostClimbingStairs(int index, int[]arr, int[] dp){
+        if(index == arr.length-1 || index == arr.length-2)
+            return arr[index];
+
+        if(dp[index] != 0)
+            return dp[index];
+
+        int secondStep = Integer.MAX_VALUE;
+        int firstStep =  minCostClimbingStairs(index+1, arr, dp);
+        if(index+2 <= arr.length-1)
+            secondStep = minCostClimbingStairs(index+2, arr,dp);
+
+        return dp[index] = arr[index] + Math.min(firstStep, secondStep);
+    }
 
     // (1) First Way Using BruteForce
     public int minCostClimbingStairs1(int[] costs) {
