@@ -46,9 +46,9 @@
 <details>
 <summary>DP On 2D Array</summary>
 
-| #   | Problem                                                                                              | Topic | Language                                                                                                                                           |
-|-----|------------------------------------------------------------------------------------------------------|-------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | [Ninja’s Training](https://www.codingninjas.com/codestudio/problem-details/ninja-s-training_3621003) | 2D DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java) |
+| #   | Problem                                                                                              | Topic | Language                                                                                                                                |
+|-----|------------------------------------------------------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Ninja’s Training](https://www.codingninjas.com/codestudio/problem-details/ninja-s-training_3621003) | 2D DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/dPOnTwoDArray/NinjaTraining.java) |
 
 
 
@@ -58,9 +58,9 @@
 <details>
 <summary>Palindromic Subsequence</summary>
 
-| #   | Problem                                                                                 | Topic           | Language                                                                                                                                           |
-|-----|-----------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 1D DP On String | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java) |
+| #   | Problem                                                                                 | Topic           | Language                                                                                                                                                 |
+|-----|-----------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 1D DP On String | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/palindromicSubsequence/PalindromePartitioning.java |
 
 
 </details>
@@ -69,10 +69,11 @@
 <details>
 <summary>Longest Common Substring</summary>
 
-| #   | Problem                                                                                                | Topic     | Language                                                                                                                                                    |
-|-----|--------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java) |
-| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
+| #   | Problem                                                                                                                                                              | Topic     | Language                                                                                                                                                    |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                              | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java) |
+| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1)                                                               | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
+| 3   | [Longest Increasing Subsequence](https://www.interviewbit.com/problems/longest-increasing-subsequence/discussion/p/3-way-to-solve-among-two-is-efficient/317943/379) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
 
 
 
