@@ -7,11 +7,13 @@
 <details>
 <summary>0-1 Knapsack</summary>
 
-| #   | Problem                    | Topic           | Language                                                                                                                                   |
-|-----|----------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Sub Set Sum                | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)      |
-| 2   | 0-1 Knapsack               | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/ZeroOnKnapsack.java) |
-| 3   | Equal Subset Sum Partition | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)      |
+| #   | Problem                                                                                           | Topic           | Language                                                                                                                                            |
+|-----|---------------------------------------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Sub Set Sum](https://www.interviewbit.com/problems/subset-sum-problem/)                          | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)               |
+| 2   | 0-1 Knapsack                                                                                      | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/ZeroOnKnapsack.java)          |
+| 3   | Equal Subset Sum Partition                                                                        | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
+| 4   | [Subset Sum]                                                                                      | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
+| 5   | [Count of Subset Sum](https://www.codingninjas.com/codestudio/problems/number-of-subsets_3952532) | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
 
 </details>
 
@@ -21,8 +23,6 @@
 
 | #   | Problem                             | Topic                           | Language |
 |-----|-------------------------------------|---------------------------------|----------|
-
-
 
 </details>
 
@@ -41,7 +41,6 @@
 | 7   | [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)    | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 | 8   | [198.House Robber](https://leetcode.com/problems/house-robber/)                         | Fibonacci Number DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/fibonacciNumbers/MinCostClimbingStairs.java)                                                              |
 
-
 </details>
 
 ---
@@ -52,8 +51,6 @@
 |-----|------------------------------------------------------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | [Ninja’s Training](https://www.codingninjas.com/codestudio/problem-details/ninja-s-training_3621003) | 2D DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/dPOnTwoDArray/NinjaTraining.java) |
 
-
-
 </details>
 
 ---
@@ -63,7 +60,6 @@
 | #   | Problem                                                                                 | Topic           | Language                                                                                                                                                 |
 |-----|-----------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 1D DP On String | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/palindromicSubsequence/PalindromePartitioning.java |
-
 
 </details>
 
@@ -76,9 +72,6 @@
 | 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                              | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java)     |
 | 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1)                                                               | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)       |
 | 3   | [Longest Increasing Subsequence](https://www.interviewbit.com/problems/longest-increasing-subsequence/discussion/p/3-way-to-solve-among-two-is-efficient/317943/379) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestIncreasingSubsequence.java) |
-
-
-
 
 </details>
 

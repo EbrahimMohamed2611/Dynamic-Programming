@@ -4,6 +4,33 @@ import java.util.Arrays;
 
 public class SubSetSum {
 
+
+    public int solve(int[] nums, int target) {
+        Boolean[][] dp = new Boolean[nums.length][target + 1];
+
+        return canPartition(0, target, nums, dp) == true ? 1 : 0;
+    }
+
+    private boolean canPartition(int index, int target, int[] nums, Boolean[][] dp) {
+        if (target == 0) return true;
+        if (index == nums.length - 1)
+            return nums[index] == target;
+
+        if (dp[index][target] != null)
+            return dp[index][target];
+
+        if (nums[index] <= target)
+            if (canPartition(index + 1, target - nums[index], nums, dp)) {
+                dp[index][target] = true;
+                return true;
+            }
+
+        boolean canParition = canPartition(index + 1, target, nums, dp);
+        dp[index][target] = canParition;
+        return canParition;
+    }
+
+
     // BruteForce From start to end
     public static boolean isSubSetEqualTarget(int[] arr, int target) {
         return isSubSetEqualTarget(0, arr, target);
@@ -51,7 +78,7 @@ public class SubSetSum {
 
     // BruteForce From end to start
     public static boolean isSubSetEqualTargetFromEndToStartUsingDP(int[] arr, int target) {
-        int[][] dp = new int[arr.length][target+1];
+        int[][] dp = new int[arr.length][target + 1];
         return isSubSetEqualTargetHelperUsingDP(arr.length - 1, arr, target, dp);
     }
 
