@@ -7,10 +7,11 @@
 <details>
 <summary>0-1 Knapsack</summary>
 
-| #   | Problem      | Topic           | Language                                                                                                                              |
-|-----|--------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Sub Set Sum  | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
-| 2   | 0-1 Knapsack | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
+| #   | Problem                    | Topic           | Language                                                                                                                                   |
+|-----|----------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Sub Set Sum                | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)      |
+| 2   | 0-1 Knapsack               | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/ZeroOnKnapsack.java) |
+| 3   | Equal Subset Sum Partition | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)      |
 
 </details>
 
