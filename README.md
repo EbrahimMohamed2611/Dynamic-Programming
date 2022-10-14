@@ -12,8 +12,9 @@
 | 1   | [Sub Set Sum](https://www.interviewbit.com/problems/subset-sum-problem/)                          | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)               |
 | 2   | 0-1 Knapsack                                                                                      | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/ZeroOnKnapsack.java)          |
 | 3   | Equal Subset Sum Partition                                                                        | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
-| 4   | [Subset Sum]                                                                                      | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
-| 5   | [Count of Subset Sum](https://www.codingninjas.com/codestudio/problems/number-of-subsets_3952532) | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/EqualSubsetSumPartition.java) |
+| 4   | [Subset Sum]                                                                                      | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java)               |
+| 5   | [Count of Subset Sum](https://www.codingninjas.com/codestudio/problems/number-of-subsets_3952532) | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/CountOfSubsetSum.java)        |
+| 6   | [Target Sum](https://leetcode.com/problems/target-sum/)                                           | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/CountOfSubsetSum.java)        |
 
 </details>
 
