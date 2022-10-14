@@ -7,9 +7,10 @@
 <details>
 <summary>0-1 Knapsack</summary>
 
-| #   | Problem     | Topic           | Language                                                                                                                              |
-|-----|-------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Sub Set Sum | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
+| #   | Problem      | Topic           | Language                                                                                                                              |
+|-----|--------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Sub Set Sum  | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
+| 2   | 0-1 Knapsack | 0-1 Knapsack DP | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/zeroOneKnapsack/SubSetSum.java) |
 
 </details>
 
@@ -69,11 +70,11 @@
 <details>
 <summary>Longest Common Substring</summary>
 
-| #   | Problem                                                                                                                                                              | Topic     | Language                                                                                                                                                    |
-|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                              | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java) |
-| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1)                                                               | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
-| 3   | [Longest Increasing Subsequence](https://www.interviewbit.com/problems/longest-increasing-subsequence/discussion/p/3-way-to-solve-among-two-is-efficient/317943/379) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)   |
+| #   | Problem                                                                                                                                                              | Topic     | Language                                                                                                                                                        |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                              | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubSequence.java)     |
+| 2   | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1)                                                               | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestCommonSubstring.java)       |
+| 3   | [Longest Increasing Subsequence](https://www.interviewbit.com/problems/longest-increasing-subsequence/discussion/p/3-way-to-solve-among-two-is-efficient/317943/379) | 2D DP LCS | [java](https://github.com/EbrahimMohamed2611/Dynamic-Programming/blob/main/src/main/java/io/educative/longestCommonSubstring/LongestIncreasingSubsequence.java) |
 
 
 
